@@ -1,0 +1,43 @@
+<html>
+<body>
+<h2 id="linkythingy" class="classythingy">I'm hungry for lunch</h2>
+<style>
+.classythingy {
+	animation: bounce 5s linear 100;
+	transform-style: preserve-3d;
+	text-align: center;
+	font-size: 100px;
+}
+ @keyframes bounce{
+	 from{
+		   transform: rotateY(0deg);
+	   }
+	   to {
+		   transform: rotateY(-360deg);
+	   }
+	0%{
+	  transform:translate(0px,0px);
+	  color: red;
+	  }
+	25%{
+	   transform:translate(450px,300px);
+
+	  }
+	50%{
+	   transform:translate(900px,0px);
+	   color: blue;
+	  }
+	 75%{
+	   transform:translate(100px,-300px);
+
+
+	   }
+   100%{
+	  transform:translate(0px,0px);
+	  color: green;
+	  }
+   }
+
+</style>
+</body>
+</html>
